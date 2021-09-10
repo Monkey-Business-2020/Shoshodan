@@ -83,6 +83,7 @@ class ShodanSearch():
             print("\n" + "========== " + str(ip) + " ==========")
             #current_date = datetime.date.today()
             #shodan_last_update = data['last_update'].split("T")[0]
+            print(colored("URL: ", "green") + colored("https://www.shodan.io/host/" + str(ip), "blue"))
             print(colored(f"Last Shodan Update: ", "green") + colored(data['last_update'].split("T")[0], "blue"))
             country = data.get("country_name")
             if country:
