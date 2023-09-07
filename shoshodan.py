@@ -95,7 +95,7 @@ class ShodanSearch():
             else:
                 print(colored("Hostname: ", "green"), end="")
             for names in hostnames:
-                print(colored(names, "blue"), end=" ")
+                print(colored(names, "blue"), end="\n")
             print("\n")
             #print(data)
 
